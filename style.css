@@ -1,2 +1,25 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* *-*-*-*-*-*-*-*-*-*-*-*-* Utility Components *-*-*-*-*-*-*-*-*-*-*-*-* */
+:root {
+    font-size: 62.5%;
+
+    /**** Custom Properties ****/
+    --primary-color: hsl(225, 100%, 94%);
+    --secondary-color: hsl(225, 100%, 98%);
+    --button-color: hsl(245, 75%, 52%);
+
+    /* Fonts Color */
+    --font-color-p: hsl(224, 23%, 55%);
+    --font-color-h: hsl(223, 47%, 23%);
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
