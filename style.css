@@ -46,14 +46,21 @@ main {
     align-items: center;
 }
 
-h1 {
-    margin-bottom: 2rem;
+a {
+    cursor: pointer;
+}
+
+button a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 h1 {
     color: var(--font-color-h);
     font-size: 2.7rem;
     font-weight: 900;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -97,11 +104,11 @@ div.card__description {
     width: 90%;
 }
 
-
 div.card__plan {
     background-color: var(--secondary-color);
     border-radius: 1rem;
     height: 6.6rem;
+    margin-bottom: 3rem;
 
     display: flex;
     align-items: center; 
@@ -126,7 +133,7 @@ div.card__plan-img {
 }
 
 div.card__plan-info {
-    margin-right: 11rem;
+    margin-right: 10rem;
 }
 
 div.card__plan-info p {
@@ -134,11 +141,18 @@ div.card__plan-info p {
 }
 
 div.card__plan-change a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
-
 }
 
+div.card__btn {
+    display: flex;
+    flex-direction: column;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+div.attribution { 
+    font-size: 1.1rem; 
+    text-align: center; }
+div.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
