@@ -168,12 +168,21 @@ button.card__btn-pay a {
     color: white;
 }
 
+div.card__plan-change a:hover,
+button.card__btn-pay:hover {
+    opacity: 0.7;
+}
+
 button.card__btn-cancel {
     background-color: transparent;
 }
 
 button.card__btn-cancel a {
     color: var(--font-color-p);
+}
+
+button.card__btn-cancel a:hover {
+    color: var(--font-color-h);
 }
 
 div.attribution { 
