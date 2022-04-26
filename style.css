@@ -27,6 +27,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.5;
     min-height: 100vh;
     text-align: center;
 
@@ -43,6 +44,26 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: var(--font-color-h);
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    color: var(--font-color-p);
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 /* *-*-*-*-*-*-*-*-*-*-*-*-* Main Styling*-*-*-*-*-*-*-*-*-*-*-*-* */
@@ -63,7 +84,7 @@ div.card__hero-img {
     background-image: url(images/illustration-hero.svg);
     background-position: center;
     height: 22rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 
 div.card__content {
@@ -71,6 +92,52 @@ div.card__content {
     width: 80%;
 }
 
+div.card__description {
+    margin: 0 auto 2.5rem auto;
+    width: 90%;
+}
+
+
+div.card__plan {
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    height: 6.6rem;
+
+    display: flex;
+    align-items: center; 
+}
+
+div.card__plan-img {
+    background-image: url("images/icon-music.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4.8rem;
+    width: 4.8rem;
+}
+
+div.card__plan-info,
+div.card__plan-img,
+div.card__plan-change {
+    display: inline-block;
+}
+
+div.card__plan-img {
+    margin: 0 2.5rem;
+}
+
+div.card__plan-info {
+    margin-right: 11rem;
+}
+
+div.card__plan-info p {
+    margin: 0;
+}
+
+div.card__plan-change a {
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
