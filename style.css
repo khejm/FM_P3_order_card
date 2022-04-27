@@ -70,13 +70,16 @@ h1 {
     margin-bottom: 2rem;
 }
 
+h2, p {
+    font-size: 1.7rem;
+}
+
 h2 {
     font-weight: 700;
 }
 
 p {
     color: var(--font-color-p);
-    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -107,7 +110,7 @@ div.card__content {
 }
 
 div.card__description {
-    margin: 0 auto 2.5rem auto;
+    margin: 0 auto 2.3rem auto;
     width: 90%;
 }
 
