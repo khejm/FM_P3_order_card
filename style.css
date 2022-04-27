@@ -47,11 +47,14 @@ main {
 }
 
 a {
-    cursor: pointer;
     color: var(--button-color);
 }
 
-button a {
+a, button {
+    cursor: pointer;
+}
+
+button {
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
@@ -171,16 +174,16 @@ button.card__btn-pay {
     box-shadow: 0px 7px 35px -10px var(--button-color);
 }
 
-button.card__btn-pay a,
-button.card__btn-cancel a {
+button.card__btn-pay,
+button.card__btn-cancel{
     font-size: 1.7rem;
 }
 
-button.card__btn-pay a {
+button.card__btn-pay{
     color: white;
 }
 
-div.card__plan-change a:hover,
+div.card__plan-change:hover,
 button.card__btn-pay:hover {
     opacity: 0.7;
 }
@@ -189,11 +192,11 @@ button.card__btn-cancel {
     background-color: transparent;
 }
 
-button.card__btn-cancel a {
+button.card__btn-cancel{
     color: var(--font-color-p);
 }
 
-button.card__btn-cancel a:hover {
+button.card__btn-cancel:hover {
     color: var(--font-color-h);
 }
 
