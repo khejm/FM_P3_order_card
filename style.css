@@ -48,6 +48,7 @@ main {
 
 a {
     cursor: pointer;
+    color: var(--button-color);
 }
 
 button a {
@@ -75,7 +76,7 @@ h2, p {
 }
 
 h2 {
-    font-weight: 700;
+    font-weight: 900;
 }
 
 p {
@@ -143,7 +144,7 @@ div.card__plan-img {
 }
 
 div.card__plan-info {
-    margin-right: 10rem;
+    margin-right: 9rem;
 }
 
 div.card__plan-info p {
@@ -162,9 +163,14 @@ div.card__btn {
 
 button.card__btn-pay {
     background-color: var(--button-color);
-    -webkit-box-shadow: 0px 0.5rem 2.5rem -0.7rem var(--font-color-p);
-    -moz-box-shadow: 0px 0.5rem 2.5rem -0.7rem var(--font-color-p);
-    box-shadow: 0px 5px 25px -7px var(--font-color-p);
+    -webkit-box-shadow: 0px 7px 35px -10px var(--button-color);
+    -moz-box-shadow: 0px 7px 35px -10px var(--button-color);
+    box-shadow: 0px 7px 35px -10px var(--button-color);
+}
+
+button.card__btn-pay a,
+button.card__btn-cancel a {
+    font-size: 1.7rem;
 }
 
 button.card__btn-pay a {
