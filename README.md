@@ -7,7 +7,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -21,7 +20,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 - Solution URL: https://github.com/khejm/FM_P3_order_card.git
-- Live Site URL:
+- Live Site URL: https://khejm.github.io/FM_P3_order_card/
 
 ## My process
 
