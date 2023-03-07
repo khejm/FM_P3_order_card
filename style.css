@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-/* *-*-*-*-*-*-*-*-*-*-*-*-* Utility Components *-*-*-*-*-*-*-*-*-*-*-*-* */
 :root {
     font-size: 62.5%;
 
@@ -88,12 +87,12 @@ p {
 
 /* *-*-*-*-*-*-*-*-*-*-*-*-* Main Styling*-*-*-*-*-*-*-*-*-*-*-*-* */
 
-section.card,
-div.card__hero-img {
+.card,
+.card__hero-img {
     width: 45rem;
 }
 
-section.card {
+.card {
     background-color: white;
     border-radius: 1.5rem;
     height: 68.4rem;
@@ -104,24 +103,24 @@ section.card {
     box-shadow: 0px 9px 50px -30px var(--button-color);
 }
 
-div.card__hero-img {
+.card__hero-img {
     background-image: url(images/illustration-hero.svg);
     background-position: center;
     height: 22rem;
     margin-bottom: 4.5rem;
 }
 
-div.card__content {
+.card__content {
     margin: auto;
     width: 80%;
 }
 
-div.card__description {
+.card__description {
     margin: 0 auto 2.3rem auto;
     width: 90%;
 }
 
-div.card__plan {
+.card__plan {
     background-color: var(--secondary-color);
     border-radius: 1rem;
     height: 9rem;
@@ -131,7 +130,7 @@ div.card__plan {
     align-items: center; 
 }
 
-div.card__plan-img {
+.card__plan-img {
     background-image: url("images/icon-music.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,70 +138,70 @@ div.card__plan-img {
     width: 4.8rem;
 }
 
-div.card__plan-info,
-div.card__plan-img,
-div.card__plan-change {
+.card__plan-info,
+.card__plan-img,
+.card__plan-change {
     display: inline-block;
 }
 
-div.card__plan-img {
+.card__plan-img {
     margin: 0 2.5rem;
 }
 
-div.card__plan-info {
+.card__plan-info {
     margin-right: 9rem;
 }
 
-div.card__plan-info p {
+.card__plan-info p {
     margin: 0;
 }
 
-div.card__plan-change a {
+.card__plan-change a {
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-div.card__btn {
+.card__btn {
     display: flex;
     flex-direction: column;
 }
 
-button.card__btn-pay {
+.card__btn-pay {
     background-color: var(--button-color);
     -webkit-box-shadow: 0px 7px 35px -10px var(--button-color);
     -moz-box-shadow: 0px 7px 35px -10px var(--button-color);
     box-shadow: 0px 7px 35px -10px var(--button-color);
 }
 
-button.card__btn-pay,
-button.card__btn-cancel{
+.card__btn-pay,
+.card__btn-cancel{
     font-size: 1.7rem;
 }
 
-button.card__btn-pay{
+.card__btn-pay{
     color: white;
 }
 
-div.card__plan-change:hover,
-button.card__btn-pay:hover {
+.card__plan-change:hover,
+.card__btn-pay:hover {
     opacity: 0.7;
 }
 
-button.card__btn-cancel {
+.card__btn-cancel {
     background-color: transparent;
 }
 
-button.card__btn-cancel{
+.card__btn-cancel{
     color: var(--font-color-p);
 }
 
-button.card__btn-cancel:hover {
+.card__btn-cancel:hover {
     color: var(--font-color-h);
 }
 
-div.attribution { 
+.attribution { 
     font-size: 1.1rem; 
     text-align: center; }
-div.attribution a { 
+.attribution a { 
     color: hsl(228, 45%, 44%); 
 }
